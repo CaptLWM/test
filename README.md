@@ -26,37 +26,31 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## NestJS
+## NestJS : Node.js에 기반을 둔 웹 API 프레임 워크
+```bash
+Node.js는 Java의 spring, Python의 django처럼 구조화 된 프레임워크가 부족했습니다.
+구조화 되지 않은 프레임워크는 개발자들에게 자율성을 부여하여 소규모 프로젝트를 진행할 때는 간단한 규칙과 구조로
+쉽개 어플리케이션을 생성하고 배포할 수 있었지만 대규모 프로젝트를 진행해야 할 경우에는
+하나하나 규칙을 생성하여 만들어야 하는데 이는 개발자에 부담으로 돌아왔고 이를 해결하기 위해 Nest.js가 개발되었습니다.
 
-```bash
-Node.js에 기반을 둔 웹 API 프레임 워크
+Nest.js는 생산성을 높여주어 전체 프로젝트진행에 효율성을 제공해 줄 수 있으며, typescript를 도입해 오류들을
+사전에 방지할 수 있도록 했고, 모듈로 감싸는 형태로 개발되기 때문에 모듈별로 쉽게 테스트를 할 수 있습니다.
 ```
-장점
-```bash
-Node.js에 기반을 둔 웹 API 프레임 워크
-```
-장점
-```bash
-Node.js에 기반을 둔 웹 API 프레임 워크
-```
-## NestJS 기본 구성요소
 
-```bash
-# development
-```
+## NestJS 기본 구성요소 : module / controller / provider(service)
 module
 ```bash
 # development
 ```
-controllers
+controller
+```bash
+controller는 들어오는 요청을 받고 처리된 결과를 응답으로 돌려주는 인터페이스 역할을 합니다.
+라우팅 매커니즘을 통해 각 컨트롤러가 받을 수 있는 요청을 분류하여 구조적이고 모듈화 할 수 있으며 
+```
+providers(service)
 ```bash
 # development
 ```
-providers
-```bash
-# development
-```
-
 
 ## Test 후기
 
@@ -70,3 +64,6 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## 참고한 자료
+https://www.youtube.com/watch?v=SHfR1tLpe1o&t=237s
