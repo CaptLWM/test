@@ -59,8 +59,7 @@ providers(service)
 ```
 
 ## 참고한 자료
-```bash
 <a href=https://www.youtube.com/watch?v=SHfR1tLpe1o&t=237s></a>
 <a href=https://www.wisewiredbooks.com/nestjs/overview/05-modules.html></a>
 <a href=https://jay2u8809.github.io/docs/nodejs/nestjs-how_to_start_nestjs/></a>
-```
+
